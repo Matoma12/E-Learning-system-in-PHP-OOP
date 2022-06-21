@@ -1,0 +1,83 @@
+ 
+            #err {
+                width: 600px;
+                font-size: 20px;
+                color: red;
+                border: 2px;
+                border-color: blue;
+                margin-left: 80px;
+            }
+           
+            form {
+                width: 700px;
+                border:1px solid rgb(56, 55, 55);
+                height: auto;
+                background: rgb(255, 255, 255);
+                margin: 0px auto;
+                font-size: 25px;
+            }
+
+            #header {
+                width: 700px;
+                height: 200px;
+                background: rgba(173, 173, 173, 0.829);
+                font-size: 35px;
+                text-align: center;
+            }
+
+            input[type="text"],
+            input[type="password"], input[type="email"], input[type="date"] {
+                width: 400px;
+                height: 45px;
+                margin: 15px;
+                font-size: 25px;
+            }
+            input[type="radio"] 
+            {  width: 50px;
+                height: 20px;
+                margin-left: 0px;
+                font-size: 25px;
+            }
+            #mf {
+                margin-left: 15px;
+            }
+
+            td {
+                width: 200px;
+            }
+
+            input[type="submit"],
+            input[type="reset"] {
+                width: 120px;
+                height: 45px;
+                font-size: 25px;
+                margin: 15px 0px 0px 15px;
+            }
+           
+            input[type="reset"],
+            input[type="text"],
+            input[type="password"], 
+            input[type="email"],  
+            input[type="date"] 
+            {
+                background: rgba(173, 173, 173, 0.829);
+            }
+            input[type="submit"]
+            {
+                background: rgb(73, 105, 192);
+                color: white;
+            }
+
+            input[type="submit"]:hover,
+            input[type="reset"]:hover,
+            input[type="text"]:hover,
+            input[type="password"]:hover, 
+            input[type="email"]:hover,  
+            input[type="date"]:hover 
+            {
+                background: lightblue;
+                border-bottom: 2px solid brown;
+
+                border-right: 2px solid brown;
+            }
+        
